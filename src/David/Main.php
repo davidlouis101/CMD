@@ -1,6 +1,6 @@
 <?php
 
- namespace David\cmd;
+ namespace  David\CMD;
 
  
 
