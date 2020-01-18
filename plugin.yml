@@ -1,0 +1,77 @@
+name: CMD
+
+api:  3.8.1
+
+version: 2.0
+
+main: MickrigeMaus\cmd\Main
+
+author: MickrigeMaus
+
+load: STARTUP
+
+commands:
+
+  tag:
+
+    description: §bMacht tag.
+
+    usage: "/tag"
+
+    permission: time.command
+
+  nacht:
+
+    description: §bMacht nacht.
+
+    usage: "/nacht"
+
+    permission: time.command
+
+  gm0:
+
+    description: §cSetzt dich in den gm0
+
+    usage: "/gm0"
+
+    permission: gamemode.command
+
+  gm2:
+
+    description: §cSetzt dich in den gm2
+
+    usage: "/gm2"
+
+    permission: gamemode.command
+
+  gm1:
+
+    description: §cSetzt dich in den gm1
+
+    usage: "/gm1"
+
+    permission: gamemode.command
+
+  gm3:
+
+    description: §cSetzt dich in den gm3
+
+    usage: "/gm3"
+
+    permission: gamemode.command
+
+  heal:
+
+    description: §6Füllt deine Herzen auf.
+
+    usage: "/heal"
+
+    permission: heal.command
+
+  food:
+
+    description: §6Füllt deine Hungerleiste auf.
+
+    usage: "/food"
+
+    permission: food.command
