@@ -1,39 +1,39 @@
 name: CMD
-api: 3.11.1
+api:  3.8.1
 version: 1.0.0
 main: David\CMD\Main
 author: David
 load: STARTUP
 commands:
-tag:
-description:
-usage: "/tag"
-permission: time.cmd
-nacht:
-description: Macht Nacht
-usage: "/nacht"
-permision: time.cmd
-gm0:
-description: §cSetzt dich in den gm0
-usage: "/gm0"
-permission: gm.cmd
-gm2:
-description:
-usage: "/gm2"
-permission: gm.cmd
-gm1:
-description: §4Du bist Jetzt in GM1
-usage: "/gm1"
-permission: gm.cmd
-gm3:
-description: §4Du bist Jetzt in GM3
-usage: "/GM3"
-permission: gm.cmd
-Heal:
-description: §4Du wurdest Geheilt.
-usage: "/Heal"
-food:
-description: §4Du Hast Jetzt Kein hunger mehr.
-usage: "/food"
-permission: food.cmd
-
+  tag:
+    description: §bMacht tag.
+    usage: "/tag"
+    permission: time.command
+  nacht:
+    description: §bMacht nacht.
+    usage: "/nacht"
+    permission: time.command
+  gm0:
+    description: §cSetzt dich in den gm0
+    usage: "/gm0"
+    permission: gamemode.command
+  gm2:
+    description: §cSetzt dich in den gm2
+    usage: "/gm2"
+    permission: gamemode.command
+  gm1:
+    description: §cSetzt dich in den gm1
+    usage: "/gm1"
+    permission: gamemode.command
+  gm3:
+    description: §cSetzt dich in den gm3
+    usage: "/gm3"
+    permission: gamemode.command
+  heal:
+    description: §6Füllt deine Herzen auf.
+    usage: "/heal"
+    permission: heal.command
+  food:
+    description: §6Füllt deine Hungerleiste auf.
+    usage: "/food"
+    permission: food.command
