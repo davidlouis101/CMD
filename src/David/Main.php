@@ -10,19 +10,16 @@
 
 
  class Main extends PluginBase implements Listener {
-
     public function onEnable()
     {
         $this->getLogger()->info("[cmd] Aktiviert.");
     }
 
     public $fts;
-
     public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args): bool
     {
         $fts = "[CMD]";
         $this->fts = $fts;
-
         if ($cmd->getName() == "tag") {
             if ($sender instanceof Player) {
                 if ($sender->hasPermission("time.command")) {
