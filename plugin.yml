@@ -5,11 +5,11 @@ main: David\CMD\Main
 author: David
 load: STARTUP
 commands:
-  tag:
+  Day:
     description: §bMake Day.
     usage: "/tag"
     permission: time.command
-  nacht:
+  Night:
     description: §bMake Night.
     usage: "/nacht"
     permission: time.command
