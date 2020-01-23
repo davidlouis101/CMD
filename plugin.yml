@@ -6,34 +6,34 @@ author: David
 load: STARTUP
 commands:
   tag:
-    description: §bMacht tag.
+    description: §bMake Day.
     usage: "/tag"
     permission: time.command
   nacht:
-    description: §bMacht nacht.
+    description: §bMake Night.
     usage: "/nacht"
     permission: time.command
   gm0:
-    description: §cSetzt dich in den gm0
+    description: §cSet you in gm0
     usage: "/gm0"
     permission: gamemode.command
   gm2:
-    description: §cSetzt dich in den gm2
+    description: §cSet you in gm2
     usage: "/gm2"
     permission: gamemode.command
   gm1:
-    description: §cSetzt dich in den gm1
+    description: §cSet you in gm1
     usage: "/gm1"
     permission: gamemode.command
   gm3:
-    description: §cSetzt dich in den gm3
+    description: §cSet you in gm3
     usage: "/gm3"
     permission: gamemode.command
   heal:
-    description: §6Füllt deine Herzen auf.
+    description: §6Fill your Healt.
     usage: "/heal"
     permission: heal.command
   food:
-    description: §6Füllt deine Hungerleiste auf.
+    description: §6Fill your Hunger.
     usage: "/food"
     permission: food.command
