@@ -1,12 +1,12 @@
 <?php
 
- namespace David\CMD;
+namespace David\CMD;
  
- use pocketmine\event\Listener;
- use pocketmine\plugin\PluginBase;
- use pocketmine\command\Command;
- use pocketmine\command\CommandSender;
- use pocketmine\Player;
+use pocketmine\event\Listener;
+use pocketmine\plugin\PluginBase;
+use pocketmine\command\Command;
+use pocketmine\command\CommandSender;
+use pocketmine\Player;
 
 
  class Main extends PluginBase implements Listener {
