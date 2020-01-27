@@ -8,11 +8,11 @@ use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 use pocketmine\Player;
 
-
+{
  class Main extends PluginBase implements Listener {
-    public function onEnable()
+    public function onEnable() 
     {
-        $this->getLogger()->info("[cmd] Aktiviert.");
+        $this->getLogger()->info("[CMD] Aktiviert.");
     }
 
     public $fts;
