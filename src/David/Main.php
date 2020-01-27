@@ -20,7 +20,7 @@ use pocketmine\Player;
     {
         $fts = "[CMD]";
         $this->fts = $fts;
-        if ($cmd->getName() == "tag") {
+        if ($cmd->getName() == "Day") {
             if ($sender instanceof Player) {
                 if ($sender->hasPermission("time.command")) {
                     $sender->getLevel()->setTime(6000);
@@ -33,7 +33,7 @@ use pocketmine\Player;
             }
             return true;
         }
-        if ($cmd->getName() == "nacht") {
+        if ($cmd->getName() == "Night") {
             if ($sender instanceof Player) {
                 if ($sender->hasPermission("time.command")) {
                     $sender->getLevel()->setTime(16000);
